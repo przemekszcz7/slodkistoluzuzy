@@ -3,7 +3,7 @@ import { Sparkles, ArrowRight } from "lucide-react";
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center pt-24 pb-16 md:py-0 overflow-hidden bg-gradient-to-tr from-brand-secondary via-white to-brand-bg">
+    <section className="relative min-h-screen flex items-center justify-center pt-32 sm:pt-36 pb-16 lg:py-0 overflow-hidden bg-gradient-to-tr from-brand-secondary via-white to-brand-bg">
       {/* Abstract luxury background shapes */}
       <div className="absolute top-1/4 left-10 w-96 h-96 bg-brand-primary/30 rounded-full blur-3xl -z-10 animate-pulse duration-[8s]" />
       <div className="absolute bottom-10 right-10 w-[500px] h-[500px] bg-brand-extra/20 rounded-full blur-3xl -z-10" />
@@ -11,16 +11,6 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-6 md:px-12 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center w-full">
         {/* Left column: Content */}
         <div className="lg:col-span-7 flex flex-col items-start text-left z-10">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            className="flex items-center gap-2 px-3 py-1 bg-brand-accent/10 border border-brand-accent/20 rounded-full text-brand-dark text-xs font-semibold uppercase tracking-wider mb-6"
-          >
-            <Sparkles size={12} className="text-brand-accent animate-spin" />
-            <span>Pracownia tortów, ciast i słodkich stołów</span>
-          </motion.div>
-
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
@@ -35,7 +25,7 @@ export default function Hero() {
             />
             <div className="h-px w-16 bg-brand-accent/30 hidden sm:block" />
             <span className="text-sm font-semibold tracking-widest text-brand-accent uppercase font-sans">
-              Pracownia Premium
+              Pracownia tortów
             </span>
           </motion.div>
 
