@@ -1,0 +1,6 @@
+{
+  "name": "Słodki Stół u Zuzy",
+  "description": "Pracownia tortów, ciast i słodkich stołów. Wyjątkowe torty artystyczne i słodkie stoły weselne u Zuzy.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
